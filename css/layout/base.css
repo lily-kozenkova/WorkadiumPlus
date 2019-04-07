@@ -1,0 +1,48 @@
+.wrapper{
+    overflow: hidden;
+    min-width: 1100;   
+}
+
+.container {
+    display: flex;
+    width: 940px;
+    margin: 0 auto;       
+}
+
+.container--header, .container--footer {    
+    align-items: center;
+    justify-content: space-between;   
+}
+
+.container--main{       
+    justify-content: space-between; 
+}
+
+ul {
+    margin: 0;
+    padding: 0;
+}
+
+ul li {
+    list-style-type: none;
+}
+
+/*h1, h2, h3, h4, h5, h6 {
+    margin: 0;
+    font-weight: normal;
+}*/
+
+button{
+    border: none;
+    background: transparent;
+    cursor: pointer;
+}
+
+table{
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+*{
+    box-sizing: border-box;
+}

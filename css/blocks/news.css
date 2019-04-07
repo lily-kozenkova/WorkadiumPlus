@@ -1,0 +1,12 @@
+.news{
+    margin: 50px;
+}
+
+.news__name {
+    font-weight: 700;
+}
+
+.news__avatar-pic{
+    overflow: hidden;
+    border-radius: 50%;
+}

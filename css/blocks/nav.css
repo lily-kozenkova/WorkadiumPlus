@@ -1,0 +1,43 @@
+.sidebar {    
+    width:24%;
+}
+
+.nav__item{
+    display: flex;
+}
+
+.nav__link {
+    display: flex;
+    text-decoration: none;
+  }
+
+.nav__icon {
+  width: 24px;
+  height: 18px;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.nav__item--active .nav__title {
+    color: black;
+  }
+  
+.nav__title {
+    letter-spacing: 2.4px;
+    font-size: 12px;
+    font-weight: bold;
+    color: #b24930;
+    text-transform: uppercase;
+}
+
+.nav__icon--main {
+    background-image: url('../../img/main_icon.png');
+}
+  
+.nav__icon--feed {
+    background-image: url('../../img/feed_icon.png');
+}
+  
+.nav__icon--wallet {
+    background-image: url('../../img/wallet_icon.png');
+}
