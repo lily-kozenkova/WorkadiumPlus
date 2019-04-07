@@ -1,0 +1,2 @@
+1. .features__avatar - не могу убрать inline block.
+2. box-sizing: border-box к какому блоку применить?

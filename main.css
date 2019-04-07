@@ -1,0 +1,242 @@
+@font-face { 
+    font-family: "GothamPro";
+    src: url('./fonts/convert/GoraFree.woff2') format("woff2");
+    font-weight: 300;
+    font-style: normal;
+}
+
+.wrapper{
+    overflow: hidden;
+    min-width: 1100;
+}
+
+.header, .footer {
+    background-color: #27273e;
+    color: #fff;
+    padding: 10px;     
+}
+
+.container {
+    display: flex;
+    width: 940px;
+    margin: 0 auto;       
+}
+
+.container--header, .container--footer {    
+    align-items: center;
+    justify-content: space-between;   
+}
+
+.container--main{       
+    justify-content: space-between; 
+}
+
+.company {    
+    right: 0;
+    top: 10px;
+    text-align: right;
+}  
+
+.company__phone {
+    text-decoration: none;
+    font-size: 21px;    
+    font-weight: bold;
+}
+
+.company__ref{
+    opacity: 0.7;
+    color: #ec1e79;
+    background-color: #27273e;
+    font-family: "Open Sans";
+    font-size: 14px;
+    font-weight: 700;    
+    text-decoration: underline;
+}
+ 
+body{     
+    font-family: GothamPro, Geneva, Tahoma, sans-serif;
+    line-height: 1.42em;
+    font-size: 16px;
+    -webkit-font-smoothing: antialiased;
+}
+
+.banner{
+    text-align: center;
+    background-color: #27273e;
+    width: 100%;
+    margin-bottom: 57px;   
+}
+
+.main {    
+    width:74%;
+}
+
+.sidebar {    
+    width:24%;
+}
+
+.nav__item{
+    display: flex;
+}
+
+.nav__link {
+    display: flex;
+    text-decoration: none;
+  }
+
+.nav__icon {
+  width: 24px;
+  height: 18px;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.nav__item--active .nav__title {
+    color: black;
+  }
+  
+.nav__title {
+    letter-spacing: 2.4px;
+    font-size: 12px;
+    font-weight: bold;
+    color: #b24930;
+    text-transform: uppercase;
+}
+
+.nav__icon--main {
+    background-image: url('./img/main_icon.png');
+}
+  
+.nav__icon--feed {
+    background-image: url('./img/feed_icon.png');
+}
+  
+.nav__icon--wallet {
+    background-image: url('./img/wallet_icon.png');
+}
+
+.features__list{
+    display: flex;
+    text-align: center;
+}
+
+.features__item {    
+    text-align: center;
+    vertical-align: top;
+}
+
+
+.feature-list__item {
+   text-align: left;
+    list-style: disc;
+}
+
+.features__avatar{    
+    display: inline-block;
+    width: 50px;
+    height: 50px;    
+    background-color: black;
+    border-radius: 50%;        
+}
+
+.features__avatar--flower {
+    background-image: url('./img/flower.png');
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+
+.features__avatar--star{
+    background-image: url('./img/mark-as-favorite-star.png');
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+
+.features__avatar--palette{
+    background-image: url('./img/painter-palette.png');
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+
+.news{
+    margin: 50px;
+}
+
+.news__name {
+    font-weight: 700;
+}
+
+.news__avatar-pic{
+    overflow: hidden;
+    border-radius: 50%;
+}
+
+
+.pagination, .pagination__controlls, .pagination__pages{
+    display: flex;
+}
+
+.pagination__display, .pagination__pages-item{
+    padding: 0 5px;
+}
+
+.author-info{
+    
+    width: 49%;
+}
+
+ul {
+    margin: 0;
+    padding: 0;
+}
+
+ul li {
+    list-style-type: none;
+}
+
+.socials__text{
+    font-size: 14px;
+    font-weight: bold;    
+}
+
+.socials__list{
+    display: flex;
+}
+
+.socials__item{
+    width: 20px;
+    height: 20px;    
+    background-color: white;
+    border-radius: 50%;
+        
+}
+
+.socials__item--vk {
+   background-color: #ec1e79;
+    background-image: url('./img/vk.png');
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+
+.socials__item--fb {    
+     background-image: url('./img/fb.png');
+     background-repeat: no-repeat;
+     background-position: center center;
+ }
+
+ .socials__item--google {
+     background-image: url('./img/google.png');
+     background-repeat: no-repeat;
+     background-position: center center;
+ }
+
+ .socials__item--twitter {
+     background-image: url('./img/twitter.png');
+     background-repeat: no-repeat;
+     background-position: center center;
+ }
+
+ .socials__item--mail {
+     background-image: url('./img/mail.png');
+     background-repeat: no-repeat;
+     background-position: center center;
+ }
