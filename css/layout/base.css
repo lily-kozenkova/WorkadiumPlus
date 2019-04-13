@@ -9,8 +9,7 @@
     margin: 0 auto;       
 }
 
-.container--flex {    
-    display: flex;
+.container--flex { 
     align-items: center;
     justify-content: space-between;   
 }

@@ -13,11 +13,15 @@
     height: 20px;    
     background-color: white;
     border-radius: 50%;
-    margin-right: 5px;    
+    margin-right: 5px;
+    transition: 0.5s;    
 }
 
-.socials__item--vk {
-   background-color: #ec1e79;
+.socials__item:hover{
+    background-color: #ec1e79;
+}
+
+.socials__item--vk {   
     background-image: url('../../img/vk.png');
     background-repeat: no-repeat;
     background-position: center center;
