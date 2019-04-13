@@ -6,8 +6,10 @@
 
 .company__phone {
     text-decoration: none;
+    color: #fff;
     font-size: 21px;    
     font-weight: bold;
+    text-transform: uppercase;
 }
 
 .company__ref{

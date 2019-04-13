@@ -6,6 +6,15 @@
     font-weight: 700;
 }
 
+.news__item{
+    display: flex;
+    margin-top: 30px;
+}
+
+.news__avatar{
+    margin-right: 20px;
+}
+
 .news__avatar-pic{
     overflow: hidden;
     border-radius: 50%;

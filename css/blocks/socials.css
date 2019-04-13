@@ -1,6 +1,7 @@
 .socials__text{
     font-size: 14px;
-    font-weight: bold;    
+    font-weight: bold;
+    margin-bottom: 5px;    
 }
 
 .socials__list{
@@ -12,7 +13,7 @@
     height: 20px;    
     background-color: white;
     border-radius: 50%;
-        
+    margin-right: 5px;    
 }
 
 .socials__item--vk {

@@ -5,3 +5,15 @@
 .pagination__display, .pagination__pages-item{
     padding: 0 5px;
 }
+
+.pagination__display, .pagination__prev, .pagination__next{
+    color: #656464;
+    font-size: 14px;
+    font-weight: 300;
+}
+
+.pagination__link{
+    color: #221f1f;
+    font-size: 14px;
+    font-weight: 700;
+    margin-right: 5px;
